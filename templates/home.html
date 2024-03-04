@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- templates/home.html -->
 
 {% extends 'layout.html' %}
@@ -18,3 +19,26 @@
     <button type="submit">Register</button>
 </form>
 {% endblock %}
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Integer Analyzer</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Integer Analyzer</h1>
+        <form action="{{ url_for('analyze') }}" method="get">
+            <div class="form-group">
+                <label for="number">Enter an Integer:</label>
+                <input type="text" class="form-control" id="number" name="number" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+>>>>>>> origin/main

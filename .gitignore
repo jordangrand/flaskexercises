@@ -1,6 +1,16 @@
+<<<<<<< HEAD
+=======
+# .gitignore
+>>>>>>> origin/main
 venv/
 __pycache__/
 .vscode/
 *.pyc
 *.pyo
 *.pyd
+<<<<<<< HEAD
+=======
+*.db
+*.sqlite
+
+>>>>>>> origin/main
